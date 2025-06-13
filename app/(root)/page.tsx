@@ -35,9 +35,11 @@ function page() {
       <p className="text-lg md:text-xl text-gray-600 mb-8">
         Create, edit, collaborate and organize your documents with ease—anytime, anywhere.
       </p>
+      <SignedIn>
       <Link href="/documents" className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-indigo-700 transition">
         Go to documents
       </Link>
+      </SignedIn>
     </div>
   </section>
 
